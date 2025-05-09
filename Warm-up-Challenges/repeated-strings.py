@@ -11,6 +11,7 @@ def repeatedString(s, n):
     remainder = n % len(s)
     total_a = a_in_s * full_repeats + s[:remainder].count('a')
     print(total_a)
+    
     return total_a
     
 
