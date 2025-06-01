@@ -1,4 +1,4 @@
-ef plusMinus(arr):
+def plusMinus(arr):
     n = len(arr)  # Get the size of the array
     positive_count = 0
     negative_count = 0
